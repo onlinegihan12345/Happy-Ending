@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Profile – Happy Ending</title>
+  <link rel="stylesheet" href="css.css"/>
+</head>
+<body>
+<header class="top-nav">
+  <div class="logo">Happy Ending</div>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="explore.html">Explore</a>
+    <a href="categories.html">Categories</a>
+    <a href="profile.html" class="active">Profile</a>
+    <a href="login.html">Login</a>
+  </nav>
+  <button id="theme-toggle" aria-label="Toggle theme">🌙</button>
+</header>
+
+<section class="container profile">
+  <div class="user-card">
+    <img src="https://i.pravatar.cc/120" alt="avatar" class="avatar"/>
+    <h2 id="username">HappyViewer</h2>
+    <button id="edit-btn">Edit Profile</button>
+  </div>
+
+  <h3>Watch History</h3>
+  <div class="video-grid" id="history-grid"></div>
+
+  <h3>Liked Videos</h3>
+  <div class="video-grid" id="liked-grid"></div>
+</section>
+
+<script src="js.js"></script>
+</body>
+</html>

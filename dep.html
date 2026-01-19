@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Explore – Happy Ending</title>
+  <link rel="stylesheet" href="css.css"/>
+</head>
+<body>
+<header class="top-nav">
+  <div class="logo">Happy Ending</div>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="explore.html" class="active">Explore</a>
+    <a href="categories.html">Categories</a>
+    <a href="profile.html">Profile</a>
+    <a href="login.html">Login</a>
+  </nav>
+  <button id="theme-toggle" aria-label="Toggle theme">🌙</button>
+</header>
+
+<section class="container">
+  <div class="search-bar">
+    <input type="text" id="search-input" placeholder="Search videos…"/>
+  </div>
+  <div class="filter-bar">
+    <button class="filter-btn active" data-cat="all">All</button>
+    <button class="filter-btn" data-cat="Movies">Movies</button>
+    <button class="filter-btn" data-cat="Music">Music</button>
+    <button class="filter-btn" data-cat="Education">Education</button>
+    <button class="filter-btn" data-cat="Comedy">Comedy</button>
+    <button class="filter-btn" data-cat="Travel">Travel</button>
+  </div>
+  <div class="video-grid" id="explore-grid"></div>
+</section>
+
+<script src="js.js"></script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Login – Happy Ending</title>
+  <link rel="stylesheet" href="css.css"/>
+</head>
+<body>
+<header class="top-nav">
+  <div class="logo">Happy Ending</div>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="explore.html">Explore</a>
+    <a href="categories.html">Categories</a>
+    <a href="profile.html">Profile</a>
+    <a href="login.html" class="active">Login</a>
+  </nav>
+  <button id="theme-toggle" aria-label="Toggle theme">🌙</button>
+</header>
+
+<section class="container auth">
+  <div class="form-box">
+    <h2 id="form-title">Login</h2>
+    <form id="auth-form">
+      <input type="text" id="auth-user" placeholder="Username" required/>
+      <input type="password" id="auth-pass" placeholder="Password" required/>
+      <button type="submit">Login</button>
+    </form>
+    <p id="switch">New here? <span id="switch-btn">Create an account</span></p>
+  </div>
+</section>
+
+<script src="js.js"></script>
+</body>
+</html>

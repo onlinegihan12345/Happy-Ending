@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Watch – Happy Ending</title>
+  <link rel="stylesheet" href="css.css"/>
+</head>
+<body>
+<header class="top-nav">
+  <div class="logo">Happy Ending</div>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="explore.html">Explore</a>
+    <a href="categories.html">Categories</a>
+    <a href="profile.html">Profile</a>
+    <a href="login.html">Login</a>
+  </nav>
+  <button id="theme-toggle" aria-label="Toggle theme">🌙</button>
+</header>
+
+<section class="watch-wrap container">
+  <div class="player-box">
+    <video id="player" controls autoplay></video>
+    <div class="player-info">
+      <h1 id="v-title"></h1>
+      <div class="stats">
+        <span id="v-views"></span>
+        <button id="like-btn"><span id="like-icon">❤️</span> <span id="like-count">0</span></button>
+        <button id="share-btn">Share</button>
+      </div>
+      <p id="v-desc"></p>
+    </div>
+  </div>
+  <aside class="suggested">
+    <h3>Suggested</h3>
+    <div id="suggested-list"></div>
+  </aside>
+</section>
+
+<script src="js.js"></script>
+</body>
+</html>
